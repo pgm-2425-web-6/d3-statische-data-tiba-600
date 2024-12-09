@@ -1,19 +1,48 @@
-.bar {
-    fill: steelblue;
-}
-.bar:hover {
-    fill: orange;
-}
-.axis text {
-    font-size: 12px;
+body {
+    background-color: #8c8383;
 }
 
-  #tooltip {
-    position: absolute;
-    visibility: hidden;
-    background-color: #eee;
-    border: 1px solid #eee;
-    padding: 5px;
-    border-radius: 5px;
-  }
-  
+.bar {
+  fill: #8e5d38;
+}
+.bar:hover {
+  fill: #e8ad80;
+}
+.axis text {
+  font-size: 12px;
+}
+
+#tooltip {
+  position: absolute;
+  visibility: hidden;
+  background-color: #af9078;
+  border: 1px solid #000000;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+.title {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  color: #8e5d38;
+  font-size: 5rem;
+}
+
+#moviePlot {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.x-axis text {
+  font-size: 1.3rem;
+}
+
+.y-axis {
+    font-size: 1.2rem;
+   
+}
