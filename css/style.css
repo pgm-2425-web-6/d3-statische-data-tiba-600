@@ -1,0 +1,19 @@
+.bar {
+    fill: steelblue;
+}
+.bar:hover {
+    fill: orange;
+}
+.axis text {
+    font-size: 12px;
+}
+
+  #tooltip {
+    position: absolute;
+    visibility: hidden;
+    background-color: #eee;
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
